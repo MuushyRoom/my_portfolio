@@ -1,0 +1,102 @@
+
+@keyframes colorSwitch {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgb(54, 248, 6); }
+    100% { color: rgb(255, 255, 255); }
+ 
+  }
+ 
+
+
+.body{
+    background: url('img/websitebg.png');
+    background-repeat:no-repeat;
+
+   background-size:cover;
+    text-align: center;
+    color: white;
+}
+.asteroid{
+
+    
+padding-top: 0px;
+
+}
+.asteroid1{
+
+    
+    padding-top: -50px;
+    transform: rotate(-20deg);
+    }
+.meteor{
+    transform: rotate(20deg);
+}
+.box1, .box2 ,.box3{
+
+display: inline-block;
+font-weight: bold;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border: 1px, solid, white;
+padding: 10px;
+width: auto;
+text-transform: capitalize;
+padding-bottom: -40px;
+}
+
+.headname1{
+    padding-top: 55px;
+    font-size: 55px;
+    animation-name: colorSwitch;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-duration: 4s;
+    height: auto;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+.color1{
+    animation-name: colorSwitch;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-duration: 5s;
+    
+}
+
+.color2{
+    animation-delay: 5s;
+    animation-duration:5s;
+    animation-name: colorSwitch;
+    animation-iteration-count: infinite;
+}
+
+.color3{
+    animation-delay: 6s;
+    animation-duration: 5s;
+    animation-name: colorSwitch;
+    animation-iteration-count: infinite;
+    
+}
+.headname{
+ 
+    color: azure;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -45px;
+}
+.midbody{
+
+padding-top: 350px;
+    color: azure;
+    font-size: 10px;
+    height: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a href{
+    color: aliceblue;
+}
